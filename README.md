@@ -1,2 +1,2 @@
 # workshop_restauracao
-apresentacao no worksho
+apresentacao no workshop
