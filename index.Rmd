@@ -37,8 +37,8 @@ meta() %>%
   meta_name("github-repo" = "franciscodalbertas/workshop_restauracao") %>% 
   meta_social(
     title = "workahop restauração",
-    url = "https://´PREENCHER COM ENDERECO NETLIFY",
-    image = "https://raw.githubusercontent.com/spcanelon/xaringan-basics-and-beyond/main/slides/day-01-cover-image.png",
+    url = "https://workshoprestauracao.netlify.app/",
+    image = "https://github.com/franciscodalbertas/workshop_restauracao/blob/main/slides/figuras/coverimage.png",
     image_alt = "IX WORKSHOP SOBRE RESTAURAÇÃO FLORESTAL",
     og_type = "website",
     og_author = "Francisco d'Albertas",
