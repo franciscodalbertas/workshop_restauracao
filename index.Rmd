@@ -19,12 +19,13 @@ output:
       countIncrementalSlides: false
       ratio: 16:9
       beforeInit: "macros.js"
-      slideNumberFormat: |
-        <div class="progress-bar-container">
-          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
-          </div>
-        </div>
+      # slideNumberFormat: |
+      #   <div class="progress-bar-container">
+      #     <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+      #     </div>
+      #   </div>
 ---
+
 
 ```{r meta, echo=FALSE, warning=FALSE}
 library(metathis)
@@ -49,10 +50,10 @@ meta() %>%
 ```{r setup, include = FALSE}
 options(htmltools.dir.version = FALSE)
 library(knitr)
-library(tidyverse)
+#library(tidyverse)
 library(xaringanExtra)
-library(NHSRtheme)
-library(NHSRdatasets)
+#library(NHSRtheme)
+#library(NHSRdatasets)
 library(icons)
 # set default options
 opts_chunk$set(echo=FALSE,
@@ -98,6 +99,8 @@ name: Apresentação
 layout: false
 class: about-me-slide, inverse, middle, center
 
+
+
 # Apresentação
 
 <img style="border-radius: 50%;" src="https://franciscodalbertas.netlify.app/about/sidebar/avatar.png" width="150px"/>
@@ -124,6 +127,112 @@ class:inverse
 ???
 
 mudanças climaticas, perda de biodiversidade etc, discorrer sobre!
+
+---
+# Beneficios da natureza para as pessoas 
+
+(serviços ecossistêmicos)
+
+
+```{r ,out.width="38%", fig.align='center'}
+
+knitr::include_graphics("slides/figuras/ecosystem-services-diagram.jpg")
+
+# Restaurar 350 Mha de areas degradadas até 2030
+
+```
+
+
+
+.palegrey[.left[.footnote[Fonte: [The Economics of Ecosystems and Biodiversity: Ecological and Economic Foundations (2010) ](https://teebweb.org/publications/teeb-for/research-and-academia/)]]]
+
+???
+
+- degradação ambiental nivel planetário;
+
+- começar falando sobre restauração, metas, importância; 2030, 2050!
+
+- SE;
+
+---
+
+- Constanza et al. (2014) $^1$ estimaram  a contribuição total SE em  **USD 125 trilhões/ano**;
+
+- a perda de SE entre 1997-2011 devido a mudanças no uso da terra foi estimada em **$4.3–20.2 trilhões/ano**;
+
+- PIB global em 2011: **USD 68 trilhões**
+
+- controle natural de pragas e polinização providos por áreas naturais:  10-1500 dólarer/hectare $^2$
+
+
+.pull-left[
+
+```{r echo=FALSE, fig.align='center',out.width="70%"}
+knitr::include_graphics("slides/figuras/abelha.png")
+```
+]
+
+.pull-right[
+
+```{r echo=FALSE, fig.align='center',out.width="70%"}
+knitr::include_graphics("slides/figuras/controle.pragas.jpg")
+```
+
+]
+
+.footnote[
+
+[1]*R. Costanza,et al. Changes in the global value of ecosystem services. Global Environmental Change(2014)*
+
+[2] *Pimentel et al. Economic and environmental benefits of biodiversity. BioScience (1997).*;*Lautenbach et al. Spatial and Temporal Trends of Global Pollination Benefit. en. PLoS ONE (2012).*; *Naranjo et al. Economic Value of Biological Control in Integrated Pest Management of Managed Plant Systems. Annual Review of Entomology (2015).* 
+
+]
+
+
+???
+
+- Esses benefícios já foram estimados, no ano de 2011, em 125 trillhões de dolares anuais;
+
+- A perda desses serviços pela degradação causada por mudanças no uso da terra é estimada em 4-20 trilhões/ano
+
+- Para colocar isso em contexto, o PIB global em 2011 era de 68 trilhões;
+
+- Indo para uma escala mais fina, o controle natural de pragas e a polinização são estimadas em 10-1500 dolares/ha;
+
+---
+
+# Slide com principais achados projeto Interface
+
+
+---
+
+background-size: 80%
+background-image: url(slides/figuras/bending_curve.jpg)
+
+```{r echo=FALSE, fig.align='center', out.width="75%"}
+# knitr::include_graphics("slides/figuras/bending_curve.jpg")
+```
+
+
+
+.palegrey[.left[.footnote[Fonte: [Leclère, et al. Bending the curve of terrestrial biodiversity needs an integrated strategy. Nature (2020) ](https://tradehub.earth/wp-content/uploads/2020/11/LeClere-et-al.-2020-Bending-the-curve.-Nature.pdf/)]]]
+
+
+???
+
+Eu comecei essa apresentação falando da ameaça a biodiversidade 
+
+E tb da importância da restauração, inclsusive em propriedades privadas!
+
+
+E terminei o capitulo anterior falando sobre a importancia da restauração planejada, pra pra reverter a perda de biodiv. e serviços.
+
+
+Eu gosto mto dessa figura pq ela iolutsra bem a necessidade de a gente  adotar uma trajetória de recuperação, que inclui esforços de conservação e uma produção mais sustentável, entre outros fatores;
+
+
+
+
 
 ---
 name: Introdução
@@ -163,18 +272,81 @@ knitr::include_graphics("slides/figuras/pacto_UN.png")
 argumentar sobre importância disso, custos, desafio etc
 
 ---
+
+```{r echo=FALSE, fig.align='center',out.width="100%"}
+knitr::include_graphics("slides/figuras/agriculture_surface.png")
+```
+
+.palegrey[.left[.footnote[Fonte: [Millenium Ecosystem Acessment (2005) ](https://www.millenniumassessment.org/en/index.html)]]]
+
+---
+
+# Intensificação ~~convencional~~ ecológica da agricultura
+
+.pull-left[
+
+**favorecimento dos organismos provedores de serviços ecossistêmicos**
+
+   - manutenção de vegetação nativa;
+
+   - ações de restauração;
+
+   - adoção de boas práticas (ex. certificação agrícola)
+
+- Os benefícios podem ser substanciais:
+
+  - **Produtividade café pode aumentar 10 – 30%** (Projeto Interface)
+
+  - florestas tropicais restauradas podem retirar ~3 ton de carbono $ha^{–1}$ $ano^{–1}$ da atmosfera nos primeiros 20 anos;
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, fig.align='center',out.width="70%"}
+
+
+knitr::include_graphics("slides/figuras/coffee.jpg")
+
+
+```
+
+
+]
+
+???
+
+
+-  demanda crescente por prod. agric. mas isso tem que ser feito sem os impactos da intensificacao concencional 
+
+
+- dada a situação posta, existe um desafio que a gente precisa enfrentar: como produzir de forma mais sustentável;
+
+- A gente precisa de uma intensificação ecológica da agriculutra: ou seja, favorecer os organimos que provêem os SE.
+
+- Ações como  
+   - a manutenção de áreas de vegetação nativa;
+   - restaurar áreas degradadas em paisagens agrícolas;
+   - Adoção de boas práticas agrícolas, o que é cobrado por ex nos produtos agrícolas certificados -- vou falar mais pra frente sobre isso.
+   
+- Os benefícios dessas práticas podem ser importantes!
+
+- Pro café por ex, os dados do Projeto em que meu doutorado está inserido, obtido por colegas mostram um aumento de produtividade entre 10-30% com a polinização.
+
+- Na foto a gente vê uma abelha nativa polinizando uma flor de café, que depois vai gerar os frutos.
+
+- Além disso, restaurar florestas em áreas agrícolas retira até 3 toneladas carbono da atmosfera por ha, reduzindo os efeitos do aquecimento global;
+
+
+---
+
+background-image: url("slides/figuras/contraste.png")
+background-size: contain
+
+
+---
+
 # Importância ecossitemas naturais
 
 -mencionar alguns serviços ecossistemicos e oque são
 -usar aquelas imagens de areas agricolas isoladas vs com veg. nativa
-
----
-# Beneficios da natureza para as pessoas
-## ou serviços ecossitêmicos
-
-- degradação ambiental nivel planetário;
-
-- começar falando sobre restauração, metas, importância; 2030, 2050!
-
-- SE;
-
