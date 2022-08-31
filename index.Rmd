@@ -346,7 +346,141 @@ background-size: contain
 
 ---
 
-# Importância ecossitemas naturais
+name: Apresentação
+layout: false
+class: about-me-slide,  middle, center
 
--mencionar alguns serviços ecossistemicos e oque são
--usar aquelas imagens de areas agricolas isoladas vs com veg. nativa
+## When do benefits from ecosystem restoration offset costs in coffee farms?
+
+
+### Francisco d’Albertas1*, Gerd Sparovek2, Luis-Fernando G. Pinto3, Camila Hohlenwerger1, Jean-Paul Metzger
+
+1 - University of São Paulo, Department of Ecology, Institute of Biosciences, Rua do Matão, travessa 14, São Paulo, São Paulo 05508-090, Brazil.
+2- Department of Soil Science, Luiz de Queiroz College of Agriculture, University of São Paulo, Piracicaba (SP), CP 9, CEP 13419-900, Brazil.
+3 - Fundação SOS Mata Atlântica. Av. Paulista, 2073 - Horsa 1 - Conj. 1318, 01311-300, Bela Vista, São Paulo, São Paulo.
+
+---
+
+.pull-left[
+
+### A restauração pode resultar em benefícios financeiros? Se sim, em que condições esses benefícios poderiam ser maiores que os custos?
+
+
+
+### Como os custos se comparam com a renda de fazendas e com os preços do carbono negociado em mercados de crédito?
+]
+
+.pull-right[
+
+```{r echo=FALSE, fig.align='center',out.width="70%"}
+
+
+knitr::include_graphics("slides/figuras/lampada.jpg")
+
+
+```
+
+
+]
+
+---
+
+background-image: url("slides/figuras/studysite_compl.jpg")
+background-size: contain
+
+---
+
+# Cenários: futuros plausiveis
+
+restauração em fazendas de café
+
+```{r echo=FALSE, fig.align='center',out.width="100%"}
+
+
+knitr::include_graphics("slides/figuras/cenarios.jpg")
+
+
+```
+
+---
+
+variáveis calculadas em cada cenário
+
+```{r echo=FALSE, fig.align='center',out.width="100%"}
+
+
+knitr::include_graphics("slides/figuras/variaveis_cenarios.jpg")
+
+
+```
+
+---
+
+# O que encontramos :
+### Foco nos cenários cumprimento LPVN
+
+--
+
+.pull-left[
+
+- Houve um aumento na produtividade;
+
+- Esse aumento compensa em parte a perda de produção;
+
+- O balanço financeiro geral foi negativo, mas não muito. 
+
+- Ex: o cumprimento da LPVN implica em custo de 3% da renda média das fazendas (sem compensação); 
+
+
+- Isso adicionaria 12 mil ha de vegetação nativa à região;
+
+]
+
+
+
+
+.pull-right[
+
+```{r echo=FALSE, fig.align='center',out.width="80%"}
+
+
+knitr::include_graphics("slides/figuras/results.png")
+
+
+```
+
+
+]   
+
+
+---
+
+# O que encontramos :
+
+
+
+--
+
+.pull-left[
+
+- Considerando a quantidade inicial de vegetação, propriedades com ao menos 10% vegetação nativa tiveram uma grande vantagem, com ganho médio de 1.7 % na renda total, após atingir os 20%; 
+
+- O cumprimento com a LPVN removeria 1.98-3.62 milhões de toneladas de CO2;
+
+
+- Valores baixos (5/ton) para carbono não seriam suficientes pra compensar os gastos para todas as propriedades. Porém, com 20 dolares/ton, o balanço financeiro dos cenários seria positivo;
+
+]
+
+.pull-right[
+
+```{r echo=FALSE, fig.align='center',out.width="80%"}
+
+
+knitr::include_graphics("slides/figuras/results.png")
+
+
+```
+
+
+]   
