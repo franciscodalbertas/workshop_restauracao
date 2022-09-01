@@ -92,6 +92,15 @@ background-size: 100%
 `r rmarkdown::metadata$date`
 ]
 
+```{css, echo = F}
+.partial-bg {
+  background-image: linear-gradient(0deg, red, blue);
+}
+
+.partial-bg50 {
+  background-image: linear-gradient(90deg, gray 50%, white 50%);
+}
+```
 
 
 ---
@@ -158,11 +167,19 @@ knitr::include_graphics("slides/figuras/ecosystem-services-diagram.jpg")
 
 - Constanza et al. (2014) $^1$ estimaram  a contribuição total SE em  **USD 125 trilhões/ano**;
 
+--
+
 - a perda de SE entre 1997-2011 devido a mudanças no uso da terra foi estimada em **$4.3–20.2 trilhões/ano**;
+
+--
 
 - PIB global em 2011: **USD 68 trilhões**
 
+--
+
 - controle natural de pragas e polinização providos por áreas naturais:  10-1500 dólarer/hectare $^2$
+
+
 
 
 .pull-left[
@@ -201,7 +218,29 @@ knitr::include_graphics("slides/figuras/controle.pragas.jpg")
 
 ---
 
-# Slide com principais achados projeto Interface
+.pull-left[
+
+#Projeto Interface
+
+]
+
+.pull-right[.left[
+
+
+
+
+```{r echo=FALSE, fig.align='center', out.width="60%"}
+
+knitr::include_graphics("slides/figuras/fapesp_interface.png")
+
+```
+
+]
+]
+
+
+
+colocar logo fapesp, mapa, falar dos objetivos gerais e periodo!
 
 
 ---
@@ -280,39 +319,74 @@ knitr::include_graphics("slides/figuras/agriculture_surface.png")
 .palegrey[.left[.footnote[Fonte: [Millenium Ecosystem Acessment (2005) ](https://www.millenniumassessment.org/en/index.html)]]]
 
 ---
+background-image: url(https://c.pxhere.com/images/eb/e3/0b37911ad6c25e99860ab7182d06-1596282.jpg!d)
+
+# Intensificação convencional da agricultura
+
+
+.palegrey[.left[.footnote[Fonte: [pxhere.com ](https://pxhere.com/pt/photo/1596282?utm_content=shareClip&utm_medium=referral&utm_source=pxhere)]]]
+
+
+---
+background-image: url(slides/figuras/eco_int.jpg)
+background-size: 100%
+class: inverse
+
 
 # Intensificação ~~convencional~~ ecológica da agricultura
 
-.pull-left[
+--
 
-**favorecimento dos organismos provedores de serviços ecossistêmicos**
+### **favorecimento dos organismos provedores de serviços ecossistêmicos:**
 
-   - manutenção de vegetação nativa;
+--
 
-   - ações de restauração;
+###   - manutenção de vegetação nativa;
 
-   - adoção de boas práticas (ex. certificação agrícola)
+--
+
+###   - ações de restauração;
+
+--
+
+###   - adoção de boas práticas (ex. certificação agrícola)
+
+.palegrey[.left[.footnote[Fonte: [Garibaldi et al., 2019. Policies for Ecological Intensification of Crop Production. ](https://www.sciencedirect.com/science/article/pii/S0169534719300187)]]]
+
+---
 
 - Os benefícios podem ser substanciais:
 
+--
+
   - **Produtividade café pode aumentar 10 – 30%** (Projeto Interface)
 
-  - florestas tropicais restauradas podem retirar ~3 ton de carbono $ha^{–1}$ $ano^{–1}$ da atmosfera nos primeiros 20 anos;
-
-]
-
-.pull-right[
 
 ```{r echo=FALSE, fig.align='center',out.width="70%"}
 
 
-knitr::include_graphics("slides/figuras/coffee.jpg")
+knitr::include_graphics("slides/figuras/bee_coffe.jpg")
+
+
+```
+
+--
+
+  - florestas tropicais restauradas podem retirar ~3 ton de carbono $ha^{–1}$ $ano^{–1}$ da atmosfera nos primeiros 20 anos;
+
+
+```{r echo=FALSE, fig.align='center',out.width="45%"}
+
+
+knitr::include_graphics("slides/figuras/forest.jpg")
 
 
 ```
 
 
-]
+
+
+
 
 ???
 
@@ -345,21 +419,9 @@ background-size: contain
 
 
 ---
-
-name: Apresentação
-layout: false
-class: about-me-slide,  middle, center
-
-## When do benefits from ecosystem restoration offset costs in coffee farms?
+class: partial-bg50 inverse
 
 
-### Francisco d’Albertas1*, Gerd Sparovek2, Luis-Fernando G. Pinto3, Camila Hohlenwerger1, Jean-Paul Metzger
-
-1 - University of São Paulo, Department of Ecology, Institute of Biosciences, Rua do Matão, travessa 14, São Paulo, São Paulo 05508-090, Brazil.
-2- Department of Soil Science, Luiz de Queiroz College of Agriculture, University of São Paulo, Piracicaba (SP), CP 9, CEP 13419-900, Brazil.
-3 - Fundação SOS Mata Atlântica. Av. Paulista, 2073 - Horsa 1 - Conj. 1318, 01311-300, Bela Vista, São Paulo, São Paulo.
-
----
 
 .pull-left[
 
@@ -383,6 +445,9 @@ knitr::include_graphics("slides/figuras/lampada.jpg")
 
 ]
 
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. When do benefits from ecosystem restoration offset costs in coffee farms? Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+
+
 ---
 
 background-image: url("slides/figuras/studysite_compl.jpg")
@@ -402,6 +467,8 @@ knitr::include_graphics("slides/figuras/cenarios.jpg")
 
 ```
 
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. When do benefits from ecosystem restoration offset costs in coffee farms? Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+
 ---
 
 variáveis calculadas em cada cenário
@@ -415,11 +482,18 @@ knitr::include_graphics("slides/figuras/variaveis_cenarios.jpg")
 ```
 
 ---
+background-image: url("slides/figuras/halfpage_right.png")
+background-size: contain
 
 # O que encontramos :
-### Foco nos cenários cumprimento LPVN
+----
+
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. When do benefits from ecosystem restoration offset costs in coffee farms? Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
 
 --
+
+### Cenários cumprimento LPVN
+
 
 .pull-left[
 
@@ -438,28 +512,16 @@ knitr::include_graphics("slides/figuras/variaveis_cenarios.jpg")
 
 
 
-
-.pull-right[
-
-```{r echo=FALSE, fig.align='center',out.width="80%"}
-
-
-knitr::include_graphics("slides/figuras/results.png")
-
-
-```
-
-
-]   
-
-
 ---
+background-image: url("slides/figuras/halfpage_right.png")
+background-size: contain
 
 # O que encontramos :
 
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. When do benefits from ecosystem restoration offset costs in coffee farms? Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]
 
+----
 
---
 
 .pull-left[
 
@@ -472,15 +534,7 @@ knitr::include_graphics("slides/figuras/results.png")
 
 ]
 
-.pull-right[
 
-```{r echo=FALSE, fig.align='center',out.width="80%"}
-
-
-knitr::include_graphics("slides/figuras/results.png")
+]
 
 
-```
-
-
-]   
