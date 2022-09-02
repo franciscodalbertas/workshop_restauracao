@@ -367,27 +367,37 @@ class: inverse
 
 ---
 
-- Os benefícios podem ser substanciais:
+### Os benefícios podem ser substanciais:
 
 --
 
-  - **Produtividade café pode aumentar 10 – 30%** (Projeto Interface)
+.pull-left[
+
+  - **Produtividade café pode aumentar 10 – 30%** (Projeto Interface) $^1$
 
 
-```{r echo=FALSE, fig.align='center',out.width="70%"}
+```{r echo=FALSE, fig.align='center',out.width="100%"}
 
 
-knitr::include_graphics("slides/figuras/bee_coffe.jpg")
+knitr::include_graphics("slides/figuras/adrian_result.jpg")
 
 
 ```
 
+]
+
+
 --
 
-  - florestas tropicais restauradas podem retirar ~3 ton de carbono $ha^{–1}$ $ano^{–1}$ da atmosfera nos primeiros 20 anos;
+
+.pull-right[
 
 
-```{r echo=FALSE, fig.align='center',out.width="45%"}
+
+  - florestas tropicais restauradas podem retirar ~3 ton de carbono $ha^{–1}$ $ano^{–1}$ da atmosfera nos primeiros 20 anos  $^2$;
+
+
+```{r echo=FALSE, fig.align='center',out.width="100%"}
 
 
 knitr::include_graphics("slides/figuras/forest.jpg")
@@ -396,8 +406,18 @@ knitr::include_graphics("slides/figuras/forest.jpg")
 ```
 
 
+]
 
 
+.footnote[
+
+Fonte: [1] [González-Chaves, et al., 2021. Positive forest cover effects on coffee yields are consistent across regions](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.14057)
+
+
+Fonte: [2] [Poorter, L.et al., 2016. Biomass resilience of Neotropical secondary forests](ttps://doi.org/10.1038/nature16512)
+
+
+]
 
 
 ???
@@ -471,7 +491,10 @@ background-size: contain
 
 restauração em fazendas de café
 
-```{r echo=FALSE, fig.align='center',out.width="100%"}
+ .panelset[
+   .panel[.panel-name[cenários]
+
+```{r echo=FALSE, fig.align='center',out.width="80%"}
 
 
 knitr::include_graphics("slides/figuras/cenarios.jpg")
@@ -479,7 +502,40 @@ knitr::include_graphics("slides/figuras/cenarios.jpg")
 
 ```
 
-.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. When do benefits from ecosystem restoration offset costs in coffee farms? Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+
+]
+
+
+.panel[.panel-name[Farm-level vs. Regional-level]
+   
+
+.pull-left[
+
+
+farm-level (fl)
+
+<img src="https://publicdefensephdfranciscodalbertas.netlify.app/figures/fl.gif" width="65%"/>
+
+]
+
+.pull-right[
+
+regional-level (rl)
+
+
+<img src="https://publicdefensephdfranciscodalbertas.netlify.app/figures/fl.gif" width="65%"/>
+
+]
+
+]
+
+
+
+
+]
+
+
+
 
 ---
 
@@ -576,5 +632,70 @@ background-size: contain
 
 ]
 
+---
+
+# E a certificação ambiental?
+
+--
+
+### Boas práticas (socioambientais, econômicas);
+
+--
+
+### Adesão voluntária;
+
+--
+
+### Acesso a novos mercados;
+
+--
+
+### Impactos mensuráveis;
+
+
+
+---
+
+# Distribuição das principais culturas certificadas nos trópicos
+
+
+.footnote[
+
+Fonte: [Tayleur et al. Where are commodity crops certified, and what does it mean for conservation and poverty alleviation? Biological Conservation (2018). ](https://www.sciencedirect.com/science/article/pii/S0006320716309582)
+
+]
+
+```{r echo=FALSE, fig.align='center',out.width="100%"}
+
+
+knitr::include_graphics("slides/figuras/certification_map.jpg")
+
+
+```
+
+
+
+
+
+
+---
+
+
+
+
+```{r echo=FALSE, fig.align='center',out.width="62%"}
+
+
+knitr::include_graphics("slides/figuras/data_certificacao.png")
+
+
+```
+
+
+.footnote[
+
+Fonte: [Meemken et al. Sustainability standards in global agrifood supply chains. Nature Food(2021) ](https://www.nature.com/articles/s43016-021-00360-3)
+
+]
 
 
