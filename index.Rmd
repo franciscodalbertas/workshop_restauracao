@@ -38,7 +38,7 @@ meta() %>%
   meta_social(
     title = "workahop restauração",
     url = "https://workshoprestauracao.netlify.app/",
-    image = "https://github.com/franciscodalbertas/workshop_restauracao/blob/main/slides/figuras/coverimage.png",
+    image = "slides/figuras/coverimage.png",
     image_alt = "IX WORKSHOP SOBRE RESTAURAÇÃO FLORESTAL",
     og_type = "website",
     og_author = "Francisco d'Albertas",
@@ -222,7 +222,11 @@ knitr::include_graphics("slides/figuras/controle.pragas.jpg")
 
 #Projeto Interface
 
+
+
+
 ]
+
 
 .pull-right[.left[
 
@@ -239,8 +243,16 @@ knitr::include_graphics("slides/figuras/fapesp_interface.png")
 ]
 
 
+Planejar paisagens multifuncionais sustentáveis para que além das funções produtivas elas mantenham também parte da diversidade biológica original e das funções ecossistêmicas (coordenador: Jean Paul Metzger)
 
-colocar logo fapesp, mapa, falar dos objetivos gerais e periodo!
+```{r echo=FALSE, fig.align='center', out.width="55%"}
+
+knitr::include_graphics("slides/figuras/mapa_interface.jpg")
+
+```
+
+.palegrey[.left[.footnote[Fonte: [Boesinger et al., (2017). <br> Land use type, forest cover and forest edges <br> modulate avian cross-habitat spillover. ](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13032)]]]
+
 
 
 ---
