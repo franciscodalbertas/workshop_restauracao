@@ -8,7 +8,8 @@ output:
   xaringan::moon_reader:
     css: 
       - default
-#      - css/mytheme.css
+#      - ninjutsu
+      - css/mytheme.css
       - css/mytheme-fonts.css
 #      - css/rutgers-fonts.css
 #      - css/rutgers_ed.css
@@ -111,6 +112,9 @@ background-size: 100%
 .partial-bg50 {
   background-image: linear-gradient(90deg, gray 50%, white 50%);
 }
+
+
+
 ```
 
 
@@ -732,6 +736,9 @@ class: partial-bg50 inverse
 
 knitr::include_graphics("slides/figuras/lampada.jpg")
 
+# colocar em css chunk faz ;pull-left empilhados
+# <!-- .pull-left ~ * { clear: unset; } -->
+# <!-- .pull-left + * { clear: both; } -->
 
 ```
 
@@ -749,6 +756,8 @@ knitr::include_graphics("slides/figuras/lampada.jpg")
 ---
 
 # Análise contrafactual robusta: *Diferença-das-diferenças*
+
+--
 
 .pull-left[
 
@@ -774,7 +783,49 @@ knitr::include_graphics("slides/figuras/lampada.jpg")
 
 ]
 
-.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. Agricultural certification as a synergistic tool for environmental law compliance. Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,. Agricultural certification as a synergistic tool for  environmental law compliance. Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+
+---
+background-image: url("slides/figuras/halfpage_right.png")
+background-size: contain
+
+# O que encontramos :
+
+
+----
+
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,.Agricultural certification as a synergistic tool for <br> environmental law compliance. Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+
+--
+
+.pull-left[
+
+- fazendas certificadas e não certificadas tiveram taxas muito baixas de desmatamento e regeneração no período (2005-2017);
+
+
+{{content}}
+
+]
+
+--
+
++ Não houve diferença entre os grupos;
+
+{{content}}
+
+
+--
+
+
++ também não houve diferença de cobertura de vegetação em RL (fora de APP)
+
+{{content}}
+
+--
+
++ encontramos evidências de que fazendas certificadas apresentaram aumento na cobertura em APP, na Mata Atlântica;
+
+{{content}}
 
 ---
 background-image: url("slides/figuras/halfpage_right.png")
@@ -783,19 +834,78 @@ background-size: contain
 # O que encontramos :
 ----
 
-.palegrey[.left[.footnote[Fonte: [d'Albertas et a,.Agricultural certification as a synergistic tool for environmental law compliance. Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
+.palegrey[.left[.footnote[Fonte: [d'Albertas et a,.Agricultural certification as a synergistic tool for <br> environmental law compliance. Submetido ](https://github.com/franciscodalbertas/Tese/blob/main/index/_book/thesis.pdf)]]]
 
 --
 
+
 .pull-left[
 
-- Blablabla;
+- A ausência de efeito pode estar relacionada as características das regiões de estudo e da produção de café:
+  
+
+{{content}}
 
 ]
 
+--
+
+
+  + regiões consolidadas;
+  
+  {{content}}
+  
+--
+  
+  + Alto controle na cadeia produtiva;
+  
+  {{content}}
+  
+--
+  
+  + Existência legislações ambientais ja restritivas;
+  
+  {{content}}
+  
 
 
 ---
+background-image: url("slides/figuras/halfpage_right.png")
+background-size: contain
+
+# O que encontramos :
+
+----
+
+
+.pull-left[
+
+- Há potencial para expandir benefícios da certificação para RL -- no caso de fazendas com deficit. Ex. reconhecer propriedades que favorecem vegetação nativa;
+
+{{content}}
+
+]
+
+--
+
++ Isso pode ser fortalecido considerando que os custos com restauração podem ser ( ao menos em parte) compensados com ganhos de produtividade; 
+
+{{content}}
+
+---
+# Conclusão
+
+----
+
+- Our results contribute to the still limited number of studies accessing environmental certification impacts with a robust methodology;
+
+- We have shown that coffee certification in a consolidated agricultural region had no detectable effect on reducing deforestation and increasing natural regeneration;
+
+- Nevertheless, certification can act as an additional incentive for farmers' compliance with environmental legislation, for instance, the restoration of sensitive areas such as hilltops and riparian vegetation;
+
+
+---
+
 
 # Mensagens finais 
 
