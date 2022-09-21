@@ -11,7 +11,7 @@ body {
 
 h1, h2 {
   font-family: "Lora", serif;
-}
+  }
 
 h3 {
   font-family: "Lato", "Source Sans Pro", sans-serif;
@@ -19,4 +19,22 @@ h3 {
 
 .remark-code, .remark-inline-code {
   font-family: "Source Code Pro", "Lucida Console", monospace;
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #515151;
+  
+  
+  /* H2 fonts */
+.title-slide h2 {
+  color: #cc0033;
+  
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  color: #666666;
+  
+}
 }
