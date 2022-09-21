@@ -116,7 +116,9 @@ background-size: 100%
 
 
 ```
+???
 
+bom dia, é um prazer estar aqui. Nessa conversa eu vou abordar um pouco sobre a certificação agrícola e a restauração florestal, usando o contexto do meu trabalho de doutorado.
 
 ---
 name: Apresentação
@@ -139,6 +141,12 @@ class: about-me-slide, inverse, middle, center
 [`r fontawesome::fa("twitter", a11y = "sem")` @FdAlbertas](https://twitter.com/FdAlbertas)
 [`r fontawesome::fa("github", a11y = "sem")` @franciscodalbertas](https://github.com/franciscodalbertas)
 
+???
+
+Primeiro, me apresentando, eu sou biólogo de formação e fiz mestrado e doutorado em Ecologia. Hj eu trabalho como pesquisador de pos-doutorado no IIS.
+
+Essa palestra e outras informações sobre o meu trabalho estão no meu site, pra quem tiver interesse. 
+
 ---
 name: Introdução
 layout: false
@@ -150,7 +158,15 @@ class:inverse
 
 ???
 
-mudanças climaticas, perda de biodiversidade etc, discorrer sobre!
+Eu escolhi começar com uma imagem meio dramática, mas que acho que simboliza bem o contexto atual da nossa relação com a natureza.
+
+A ação humana é tão intensa sobre o planeta que é comparável a uma força geológica.
+
+A diminuição de habitats naturais e as emissões de carbono são grandes causadoras das mudanças climáticas
+
+Essa redução de habitats e o aquecimento são uma grande ameaça a biodiversidade da terra.
+
+Mas quais são as consequências para nós?
 
 ---
 # Beneficios da natureza para as pessoas 
@@ -172,11 +188,12 @@ knitr::include_graphics("slides/figuras/ecosystem-services-diagram.jpg")
 
 ???
 
-- degradação ambiental nivel planetário;
+- Eu poderia falar de muitas coisas. Mas escolhi dar um enfoque nos benefícios da naturesa para a humanidade. 
 
-- começar falando sobre restauração, metas, importância; 2030, 2050!
+- Nossa vida e bem-estar dependem de uma série de serviços prestados pela natureza.
 
-- SE;
+- Esses serviços podem ser classificados de diversas formas. Incluem a provisão de água, fibras, remédios, alimentas. A regulação do clima do planeta...além do bem-estar em se visitar parques nacionais por exemplo, ou de comtemplar paisagens naturais.
+
 
 ---
 
@@ -184,7 +201,7 @@ knitr::include_graphics("slides/figuras/ecosystem-services-diagram.jpg")
 
 --
 
-- a perda de SE entre 1997-2011 devido a mudanças no uso da terra foi estimada em **$4.3–20.2 trilhões/ano**;
+- a perda de SE entre 1997-2011 devido a mudanças no uso da terra foi estimada em **$4,3–20,2 trilhões/ano**;
 
 --
 
@@ -227,13 +244,16 @@ Fonte: [2] [Pimentel et al. Economic and environmental benefits of biodiversity(
 
 ???
 
-- Esses benefícios já foram estimados, no ano de 2011, em 125 trillhões de dolares anuais;
+- De fato, esses benefícios já foram estimados, no ano de 2011, em 125 trillhões de dolares anuais;
 
 - A perda desses serviços pela degradação causada por mudanças no uso da terra é estimada em 4-20 trilhões/ano
 
 - Para colocar isso em contexto, o PIB global em 2011 era de 68 trilhões;
 
-- Indo para uma escala mais fina, o controle natural de pragas e a polinização são estimadas em 10-1500 dolares/ha;
+- Ou seja, os beneficios são consideravelmente maiores que o PIB global.
+
+
+- Indo para uma escala mais fina, o controle natural de pragas e a polinização , que são diretamente relacionados à produção agrícola, são estimadas em 10-1500 dolares/ha;
 
 ---
 
@@ -262,7 +282,7 @@ knitr::include_graphics("slides/figuras/fapesp_interface.png")
 ]
 
 
-.left-column[Planejar paisagens multifuncionais sustentáveis para que além das funções produtivas elas mantenham também parte da diversidade biológica original e das funções ecossistêmicas (coordenador: Jean Paul Metzger)
+.left-column["*Planejar paisagens multifuncionais sustentáveis para que além das funções produtivas elas mantenham também parte da diversidade biológica original e das funções ecossistêmicas*" (coordenador: Jean Paul Metzger)
 ]
 
 .right-column[
@@ -282,7 +302,13 @@ Fonte: [Boesinger et al., (2017). <br> Land use type, forest cover and forest ed
 
 ]
 
+???
 
+- Como esses serviços são tão importantes, tem um grande número de pesquisas sendo desenvolvidas sobre eles.
+
+- Em particular, durante o mestrado e o doutorado, eu fiz parte de um projeto temático da FAPESP que tinha como objetivo auxiliar a planejar paisagens agrícolas que fossem capazes de conciliar a conservação da biodiversidade e dos SE com a produção.
+
+- O projeto foi baseado no estudo em diversas paisagens -- que são representadas por essas bolas -- em MG e SP, em que os pesquisadores mediam as relações entre a provisão de SE e os diferentes usos da terra: a quantidade de mata, agricultura, pastagens. 
 
 ---
 
@@ -300,15 +326,21 @@ background-image: url(slides/figuras/bending_curve.jpg)
 
 ???
 
-Eu comecei essa apresentação falando da ameaça a biodiversidade 
+- Os resultados encontrados corroboram muitos outros estudos que reconhecem a importância de se conservar ambientes naturais, pra manter os se.
 
-E tb da importância da restauração, inclsusive em propriedades privadas!
+- Na realidade, se queremos uma trajetória sustentável para o futuro, são necessárias diversas ações:
+
+  - aumentar o esforço de conservação e restauração de áreas degradadas;
+  - promover uma produção agrícola mais sustentável;
+  - promover um consumo mais sustentável;
 
 
-E terminei o capitulo anterior falando sobre a importancia da restauração planejada, pra pra reverter a perda de biodiv. e serviços.
+- Eu gosto mto dessa figura pq ela iolutsra bem a necessidade de a gente  adotar uma trajetória de recuperação, que inclui todos esses esforços;
 
+- Hj eu pretendo focar mais em 2 ações: 
 
-Eu gosto mto dessa figura pq ela iolutsra bem a necessidade de a gente  adotar uma trajetória de recuperação, que inclui esforços de conservação e uma produção mais sustentável, entre outros fatores;
+  - ações de restauração em paisagens agrícolas;
+  - produção mais sustentável;
 
 
 
@@ -343,15 +375,23 @@ knitr::include_graphics("slides/figuras/pacto_UN.png")
 
 ???
 
+- Felizmente, a restauração foi incluída na agenda política global;
+
+- Uma série de metas ambiciosas foram estabelecidas; como por exemplo o pacto pela restauração da Mata Atlântica. 
+
+- Justamente por isso, a ONU declarou essa década como a década da restauração.
+
+
+
 - agenda restauração como solução possível: 
   - Bonn Challenge
   - UN decade of restoration (end 2030)
   - UN Biodiversity Conference (COP 15)
   - Pacto Mata Atlântica
 
-argumentar sobre importância disso, custos, desafio etc
 
 ---
+
 
 ```{r echo=FALSE, fig.align='center',out.width="100%"}
 knitr::include_graphics("slides/figuras/agriculture_surface.png")
