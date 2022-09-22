@@ -667,7 +667,7 @@ farm-level (fl)
 regional-level (rl)
 
 
-<img src="https://publicdefensephdfranciscodalbertas.netlify.app/figures/fl.gif" width="65%"/>
+<img src="https://publicdefensephdfranciscodalbertas.netlify.app/figures/rl.gif" width="65%"/>
 
 ]
 
