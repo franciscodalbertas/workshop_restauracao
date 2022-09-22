@@ -1092,7 +1092,7 @@ knitr::include_graphics("slides/figuras/lampada.jpg")
 
 .pull-right[
 
-#### Comparação de fazendas certificadas e não certificadas *ANTES* e *DEPOIS*
+#### Comparação de fazendas certificadas e não certificadas *ANTES* e *DEPOIS* 
 
   {{content}}
   
@@ -1142,7 +1142,7 @@ background-size: contain
 
 .pull-left[
 
-- Fazendas certificadas e não certificadas tiveram taxas muito baixas de desmatamento e regeneração no período (2005-2017);
+- Fazendas certificadas e não certificadas tiveram taxas muito baixas de desmatamento e regeneração;
 
 
 {{content}}
@@ -1190,6 +1190,10 @@ background-size: contain
 
 ]
 
+???
+
+- a falta de efeito provavelmente se deve a caracteristicas da regiao, q sao tipicos atratores de certificação: cadeia de suprimentos desenvolvida, alta aptidao agrícola, baixo risco ambiental e social. Nessas áreas, de uso do solo ja consolidado, o efeito da certificação sobre desmatamento e regeneração tende a ser menor mesmo.
+
 --
 
 
@@ -1234,6 +1238,12 @@ Fonte: [d'Albertas et al.Agricultural certification as a synergistic tool for <b
 {{content}}
 
 ]
+
+???
+
+- Alem disso, mesmo em regiões consolidades, a gente sugerem q existe impacto pra aumentar a adicionalidade. Por ex, usando a legislação ambeintal, identificando as fraquezas no seu cumprimento e facilitando a adequação.
+
+- Por ex., poderia haver em alguns casos incentivo a restauração de RL, combinadas com mecanismos de compensação como PSA, subsídios ou assistencia tecnica.
 
 --
 
